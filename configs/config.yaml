@@ -1,0 +1,18 @@
+shap:
+  max_samples: 1000
+  check_additivity: false
+
+lime:
+  num_features: 10
+  num_samples: 5000
+
+reporting:
+  template_dir: "./templates"
+  output_dir: "./reports"
+  include_plots: true
+  format: "html"
+
+fairness:
+  protected_attributes: ["gender", "age_group", "ethnicity"]
+  favorable_outcome: 1
+  threshold: 0.8

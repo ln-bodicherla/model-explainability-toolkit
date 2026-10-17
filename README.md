@@ -11,7 +11,7 @@ Comprehensive model interpretability using SHAP and LIME. Generates per-predicti
 - **Fairness Analysis** -- Disparate impact, equalized odds, demographic parity, and calibration metrics across protected attributes
 - **Compliance Reports** -- Regulatory-ready documentation for CMS, SR 11-7, and internal audit requirements
 - **Model Cards** -- Standardized model documentation with performance, fairness, and limitation disclosures
-- **REST API** -- FastAPI service for on-demand explanations in production systems
+- **REST API** -- FastAPI service for on-demand explanations
 
 ## Architecture
 
@@ -34,7 +34,7 @@ model-explainability-toolkit/
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/model-explainability-toolkit.git
+git clone https://github.com/ln-bodicherla/model-explainability-toolkit.git
 cd model-explainability-toolkit
 python -m venv venv
 source venv/bin/activate
